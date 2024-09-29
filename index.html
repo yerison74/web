@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y&J Pretty Beauty Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body> 
+    <header>
+        <div class="container">
+            <h1>Y&J Pretty Beauty Center</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <i data-lucide="facebook"></i>
+                <i data-lucide="twitter"></i>
+                <i data-lucide="instagram"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Relájate con nuestros paquetes de belleza</h2>
+                    <p>Cada experiencia con nosotros comienza con una consulta en profundidad, permitiendo a nuestros estilistas experimentados personalizar y diseñar el tratamiento adecuado para ti.</p>
+                    <button id="whatsapp-main" class="btn-primary">
+                        <i data-lucide="whatsapp"></i>
+                        Reserva por WhatsApp
+                    </button>
+                </div>
+                <div class="hero-image">
+                    <img src="/src/Mujer Sonriente.jpg?height=400&width=600" alt="Mujer sonriente">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>La Ciencia de la Belleza</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>En Y&J Pretty Beauty Center, combinamos técnicas innovadoras y productos cosméticos de alta calidad para brindarte los mejores resultados. Nuestro equipo de expertos está dedicado a realzar tu belleza natural y ayudarte a sentirte renovada.</p>
+                        <p>Utilizamos productos de cuidado de la piel y técnicas de última generación para mejorar la textura de la piel, aumentar la circulación y, lo más importante, reducir el estrés y la inflamación.</p>
+                    </div>
+                    <div class="about-images">
+                        <img src="/src/Tratamiento facial.jpg?height=200&width=200" alt="Tratamiento facial">
+                        <img src="/src/Masaje.jpg?height=200&width=200" alt="Masaje">
+                        <img src="/src/Manicura.jpg?height=200&width=200" alt="Manicura">
+                        <img src="/src/peinado.jpg?height=200&width=200" alt="Peinado">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Nuestros Servicios</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Masaje</h3>
+                        <img src="/src/masaje.jpg?height=200&width=300&text=Masaje Sueco" alt="Masaje">
+                        <button class="btn-whatsapp">
+                            <i data-lucide="whatsapp"></i>
+                            Reservar por WhatsApp
+                        </button>
+                    </div>
+                    <div class="service-card">
+                        <h3>Peinado</h3>
+                        <img src="/src/peinado.jpg?height=200&width=300&text=Masaje de Tejido Profundo" alt="Peinado">
+                        <button class="btn-whatsapp">
+                            <i data-lucide="whatsapp"></i>
+                            Reservar por WhatsApp
+                        </button>
+                    </div>
+                    <div class="service-card">
+                        <h3>Manicura</h3>
+                        <img src="/src/manicura.jpg?height=200&width=300&text=Masaje con Piedras Calientes" alt="Manicura">
+                        <button class="btn-whatsapp">
+                            <i data-lucide="whatsapp"></i>
+                            Reservar por WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="contact-info">
+                    <h2>Contáctanos</h2>
+                    <div class="info-item">
+                        <i data-lucide="map-pin"></i>
+                        <p>La cementera de, Calle Rafael Ant. Pichardo 11, Santo Domingo, República Dominicana</p>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="phone"></i>
+                        <p>+1 8097967525</p>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="mail"></i>
+                        <p>info@yjprettybeauty.com</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Consulta Gratuita</h3>
+                    <form id="consultation-form">
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Teléfono" required>
+                        <button type="submit" class="btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Y&J Pretty Beauty Center. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
