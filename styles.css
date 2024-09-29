@@ -192,8 +192,12 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
-
 @media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
     #home .container,
     .about-content,
     #contact .container {
@@ -202,5 +206,9 @@ footer {
 
     .services-grid {
         grid-template-columns: 1fr;
+    }
+
+    .social-icons {
+        justify-content: center;
     }
 }
