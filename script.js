@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     lucide.createIcons();
 
     // WhatsApp number
-    const whatsappNumber = "+18097967525"; // Replace with your actual WhatsApp number
+    const whatsappNumber = "+18091234567"; // Replace with your actual WhatsApp number
 
     // Function to open WhatsApp chat
     function openWhatsAppChat(service = "") {
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (service) {
             message += ` un servicio de ${service}`;
         }
-        message += " en Y&J Pretty Beauty Center.";
+        message += " en Beauty Center.";
         
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
